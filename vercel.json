@@ -5,7 +5,8 @@
   "rewrites": [{ "source": "/api/:path*", "destination": "/api/index" }],
   "functions": {
     "api/index.mjs": {
-      "maxDuration": 30
+      "maxDuration": 30,
+      "regions": ["bom1"]
     }
   }
 }

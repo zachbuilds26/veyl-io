@@ -593,7 +593,7 @@ app.get("/api/binance", async (req, res) => {
 
   const forward = new URLSearchParams();
   for (const [key, value] of Object.entries(req.query)) {
-    if (key === "ep") continue;
+    if (key === "ep" || key === "path") continue;
     if (!PARAM_WHITELIST.has(key)) {
       res.status(400).json({ error: `unsupported parameter: ${key}` });
       return;
