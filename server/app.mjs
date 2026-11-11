@@ -15,7 +15,7 @@ const UA =
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36";
 const BSC = "56";
 const BINANCE = "https://www.binance.com";
-const SPOT = "https://api.binance.com";
+const SPOT = "https://data-api.binance.vision";
 const BINANCE_WEB3 = "https://web3.binance.com/build";
 
 const BAPI_HEADERS = {
