@@ -556,10 +556,6 @@ textarea:focus-visible {
   transition: background-color 140ms var(--ease), border-color 140ms var(--ease);
 }
 
-.asset-card:hover {
-  border-color: var(--accent-softline);
-}
-
 .asset-card:active {
   background: var(--panel-subtle);
 }
